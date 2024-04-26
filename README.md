@@ -1,17 +1,21 @@
-# shadcn/ui
+# REAME
 
-Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
+## Commit Format
 
-![hero](apps/www/public/og.jpg)
+```sh
+build
+chore
+ci
+docs
+feat
+fix
+perf
+refactor
+revert
+style
+test
+```
 
-## Documentation
-
-Visit http://ui.shadcn.com/docs to view the documentation.
-
-## Contributing
-
-Please read the [contributing guide](/CONTRIBUTING.md).
-
-## License
-
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+```shell
+git commit -m "feat(XXX): commit-msg"
+```
