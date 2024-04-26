@@ -1,0 +1,62 @@
+templates:
+  - https://github.com/belgattitude/nextjs-monorepo-example.git
+  - https://github.com/imbhargav5/nextbase-nextjs-supabase-starter.git
+  - https://github.com/onwidget/qwind.git
+  - https://github.com/viandwi24/nuxt3-awesome-starter.git
+  - https://github.com/nuxt/movies.git
+low-code-editor:
+  - https://github.com/SoftwareBrothers/adminjs-example-app.git
+  - https://github.com/Sachin-chaurasiya/Code-Snippets-Builder.git
+  - https://github.com/tahabasri/snippets.git
+  - https://github.com/zyyv/utils.git
+products:
+  - https://github.com/CaliCastle/cali.so.git
+  - https://github.com/Crossbell-Box/xLog.git
+  - https://github.com/resendlabs/react-email.git
+  - https://github.com/openstatusHQ/openstatus.git
+  - https://github.com/screenshotone/landing-page-hunt.git
+awesome:
+  - https://github.com/jamesmurdza/awesome-ai-devtools.git
+  - https://github.com/birobirobiro/awesome-shadcn-ui
+  - https://github.com/EwingYangs/awesome-open-gpt.git
+  - https://github.com/MarsX-dev/tools-for-makers.git
+  - https://github.com/ByteByteGoHq/system-design-101.git
+themes:
+  - https://github.com/yelog/hexo-theme-3-hexo.git
+
+generator-tools:
+  - https://shuffle.dev/
+  - https://uicolors.app/create
+  - https://graygrids.com/
+  - https://tailwind-generator.com/
+  - https://uiwithai.com/
+  - https://versoly.com/
+  - https://chaibuilder.com/
+  - https://tailkits.com/
+  - https://gradient.page/
+  - https://zippystarter.com/
+  - https://makerkit.dev/
+  - https://refine.dev/
+  - https://www.builtatlightspeed.com/
+
+useful-tools:
+  - https://github.com/walkxcode/dashboard-icons.git
+  - https://github.com/fandesfyf/JamTools.git
+  - https://github.com/nihaojob/vue-fabric-editor.git
+  - https://github.com/vbenjs/vue-vben-admin.git
+  - https://github.com/guocaoyi/qapi.git
+  - https://github.com/skeletonlabs/skeleton.git
+  - https://github.com/CorentinTh/it-tools
+  - https://github.com/un-pany/v3-admin-vite.git
+  - https://github.com/chronark/highstorm.git
+  - https://github.com/gethomepage/homepage.git
+guides:
+  - https://www.pythonguis.com/
+  - https://github.com/fireship-io/fireship.io
+  - https://github.com/learnwithjason/learnwithjason.dev
+  - https://github.com/yuaanlin/yuanlin.dev.git
+  - https://github.com/carlson-technologies/coffeeclass.io
+  - https://github.com/code100x/cms.git
+  - https://github.com/academind/react-complete-guide-course-resources.git
+cms:
+  - https://github.com/darenmalfait/nerdfish.be.git
