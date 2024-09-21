@@ -1,0 +1,26 @@
+name: questdb
+# -p 9000:9000 - REST API and Web Console
+# -p 9009:9009 - InfluxDB line protocol
+# -p 8812:8812 - Postgres wire protocol
+# -p 9003:9003 - Min health server
+# conn_str = 'user=admin password=quest host=127.0.0.1 port=8812 dbname=qdb'
+
+services:
+  postgres:
+    container_name: questdb
+    image: questdb/questdb
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changeit}
+      QDB_HTTP_BIND_TO: 0.0.0.0:4000
+    volumes:
+       - ./data:/var/lib/questdb
+    ports:
+      - 9000:9000
+      - 9009:9009
+      - 9003:9003
+      - 8812:8812
+      - 4000:4000
+    restart: unless-stopped
