@@ -11,9 +11,11 @@ services:
       # if you're using a reverse proxy, uncomment the next line and remove the one above (9000:9000/tcp):
       #- 127.0.0.1:9000:9000
 
-    # environment:
-    # replace https://api.cobalt.tools/ with your instance's target url in same format
-    # API_URL: "https://api.cobalt.tools/"
+    environment:
+      # replace https://api.cobalt.tools/ with your instance's target url in same format
+      # API_URL: "https://api.cobalt.tools/"
+      API_URL: "https://localhost"
+
     # if you want to use cookies when fetching data from services, uncomment the next line and the lines under volume
     # COOKIE_PATH: "/cookies.json"
     # see docs/run-an-instance.md for more information
@@ -22,8 +24,8 @@ services:
     #   - com.centurylinklabs.watchtower.scope=cobalt
 
     # if you want to use cookies when fetching data from services, uncomment volumes and next line
-    #volumes:
-    #- ./cookies.json:/cookies.json
+    volumes:
+      - ./cookies.json:/cookies.json
 
   # update the cobalt image automatically with watchtower
   # watchtower:
